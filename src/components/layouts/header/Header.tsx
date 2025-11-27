@@ -1,11 +1,10 @@
-import { Button, Layout, theme, } from 'antd';
+import { Layout, theme, } from 'antd';
 import {
     MenuFoldOutlined,
     MenuUnfoldOutlined,
-    SunOutlined,
+
 } from '@ant-design/icons';
 import { useContextHeader } from '../../../context/HeaderToggleContext';
-import { useThemeContext } from '../../../context/ThemeContext';
 const { Header } = Layout;
 export default function AppHeader() {
     const {
