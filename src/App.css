@@ -1,0 +1,7 @@
+.ant-btn:not(:disabled):not(.ant-btn-disabled):hover {
+  background-color: white;
+}
+
+::-webkit-scrollbar {
+  width: 0;
+}
